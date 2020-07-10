@@ -30,7 +30,8 @@ nav {
 }
 
  nav img {
-  margin-left: 60px;
+   width: 200px;
+   height: 50px;
 }
 
 nav .icons {
@@ -51,6 +52,17 @@ nav .icons {
 .search-container .title {
   margin: 0 80px;
   font-weight: bolder;
+}
+
+.search-container .work {
+  color: #212529;
+  background-color: #f8f9fa;
+  margin: 20px 60px 0 60px;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
 }
 
 .form-container {
