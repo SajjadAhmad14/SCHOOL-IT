@@ -6,11 +6,6 @@
 }
 
 body {
-  background-image: url("../images/school.jpg");
-  background-color: rbga(0, 0, 0, 1);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 50px;
   overflow-x: hidden;
 }
 
@@ -46,7 +41,13 @@ nav .icons {
 }
 
 .search-container {
-    margin-top: 80px;
+    margin-top: -60px;
+    background-image: url("../images/school.jpg");
+    background-color: rbga(0, 0, 0, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50px;
+    height: 100vh;
 }
 
 .search-container .title {
@@ -67,7 +68,7 @@ nav .icons {
 
 .form-container {
     background-color: rgba(219, 219, 219, 0.6);
-    margin: 0 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
     padding: 0 20px 20px 20px;
     border-radius: 10px;
     font-size: 20px;
@@ -91,4 +92,25 @@ nav .icons {
     padding: 10px 0;
     border-radius: 2px;
     outline-color: inherit;
+}
+
+ .steps-title {
+  color: #d35649;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.steps-container .steps-icons {
+  font-size: 35px;
+}
+
+.steps-container .steps-head {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .steps-pic {
+    display: none;
+  }
 }
