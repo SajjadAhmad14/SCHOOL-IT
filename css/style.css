@@ -6,10 +6,12 @@
 }
 
 body {
-  background-image: url("../images/white.jpg");
+  background-image: url("../images/school.jpg");
+  background-color: rbga(0, 0, 0, 1);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center 50px;
+  overflow-x: hidden;
 }
 
 .container-fluid {
@@ -27,9 +29,8 @@ nav {
   align-items: center;
 }
 
-nav .logo a {
-  font-size: 20px;
-  color: #fff;
+ nav img {
+  margin-left: 60px;
 }
 
 nav .icons {
@@ -44,8 +45,12 @@ nav .icons {
 }
 
 .search-container {
-    /* background-color: black; */
-    margin-top: 50px;
+    margin-top: 80px;
+}
+
+.search-container .title {
+  margin: 0 80px;
+  font-weight: bolder;
 }
 
 .form-container {
@@ -53,11 +58,13 @@ nav .icons {
     margin: 0 20px 20px 20px;
     padding: 0 20px 20px 20px;
     border-radius: 10px;
+    font-size: 20px;
 }
 .search-container .title,
 .form-container button
     {
     color: #fff;
+    font-size: 18px;
 }
 
 .form-container input {
