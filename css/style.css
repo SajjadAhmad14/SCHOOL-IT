@@ -109,8 +109,74 @@ nav .icons {
   font-size: 20px;
 }
 
-@media screen and (min-width: 992px) {
-  .steps-pic {
-    display: none;
-  }
+.find-school {
+  display: flex;
+  align-items: center;
+  background-color: #d35649;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.find-school button {
+  outline: none;
+  border: none;
+  color: #d35649;
+  background-color: #fff;
+  padding: 5px;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+.find-school button:hover {
+  background-color: #801f14;
+} 
+
+.find-school img {
+  width: 290px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.travel-school {
+  display: flex;
+  align-items: center;
+  background-color: #99A4A5;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.travel-school button{
+  outline: none;
+  border: none;
+  color: #99A4A5;
+  background-color: #fff;
+  padding: 5px;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+.travel-school button:hover {
+  background-color: #5d6262
+}
+.travel-school img {
+  width: 290px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.easy-school {
+  display: flex;
+  align-items: center;
+  background-color: #509BD7;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.easy-school img {
+  width: 290px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
