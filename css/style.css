@@ -180,3 +180,44 @@ nav .icons {
   border-radius: 50%;
   object-fit: cover;
 }
+
+ footer {
+  background-color: #000;
+}
+
+ footer .footer-links a{
+  color: #fff;
+  font-weight: bolder;
+}
+
+footer .contact {
+  color: #fff;
+}
+
+footer .footer-links a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+ footer .contact button {
+  border: none;
+   padding: 7px 10px;
+   margin-left: -6px;
+   background-color: #343a40;
+   color: #fff;
+}
+
+footer .contact input {
+  border-color: #fff;
+  border-radius: 0px;
+  padding: 5px 10px;
+  background-color: #000;
+  outline: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  footer .footer-links a{
+  margin: 20px;
+  }
+}
