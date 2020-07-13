@@ -13,7 +13,7 @@ body {
   font-family:
     'Nanum Gothic',
     sans-serif;
-    padding: 0;
+  padding: 0;
 }
 
 nav {
@@ -24,9 +24,9 @@ nav {
   align-items: center;
 }
 
- nav img {
-   width: 200px;
-   height: 50px;
+nav img {
+  width: 200px;
+  height: 50px;
 }
 
 nav .icons {
@@ -36,29 +36,43 @@ nav .icons {
   margin-top: 10px;
 }
 
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav span {
+  margin-left: -15px;
+}
+
 .fas {
   margin: 20px;
 }
 
 .search-container {
-    margin-top: -60px;
-    background-image: url("../images/school.jpg");
-    background-color: rbga(0, 0, 0, 1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 50px;
-    height: 100vh;
+  height: 100vh;
+  background-image: url("../images/school.jpg");
+  background: linear-gradient(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.search-container .title {
-  margin: 0 80px;
+.title {
+  position: relative;
   font-weight: bolder;
+  top: 50px;
+  left: 20px;
 }
 
 .search-container .work {
   color: #212529;
   background-color: #f8f9fa;
-  margin: 20px 60px 0 60px;
+  margin: 40px 60px 0 60px;
   border: none;
   padding: 8px;
   border-radius: 3px;
@@ -67,38 +81,46 @@ nav .icons {
 }
 
 .form-container {
-    background-color: rgba(219, 219, 219, 0.6);
-    margin: 50px 20px 20px 20px;
-    padding: 0 20px 20px 20px;
-    border-radius: 10px;
-    font-size: 20px;
+  display: relative;
+  background-color: rgba(219, 219, 219, 1);
+  margin: 50px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
+  border-radius: 10px;
+  font-size: 20px;
 }
+
 .search-container .title,
-.form-container button
-    {
-    color: #fff;
-    font-size: 18px;
+.form-container button {
+  color: #fff;
+  font-size: 18px;
 }
 
 .form-container input {
-    border: none;
-    padding: 10px 0;
-    border-radius: 2px;
+  border: none;
+  padding: 10px 0;
+  border-radius: 2px;
 }
 
 .form-container button {
-    background-color: #d35649;
-    border: none;
-    padding: 10px 0;
-    border-radius: 2px;
-    outline-color: inherit;
+  background-color: #d35649;
+  border: none;
+  padding: 10px 0;
+  border-radius: 2px;
+  outline-color: inherit;
 }
 
- .steps-title {
+.steps-title {
   color: #d35649;
   font-size: 20px;
   margin-top: 30px;
   font-weight: bolder;
+  text-align: center;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .steps-container .steps-icons {
@@ -129,7 +151,7 @@ nav .icons {
 
 .find-school button:hover {
   background-color: #801f14;
-} 
+}
 
 .find-school img {
   width: 290px;
@@ -146,7 +168,7 @@ nav .icons {
   padding: 10px 0;
 }
 
-.travel-school button{
+.travel-school button {
   outline: none;
   border: none;
   color: #99A4A5;
@@ -159,6 +181,7 @@ nav .icons {
 .travel-school button:hover {
   background-color: #5d6262
 }
+
 .travel-school img {
   width: 290px;
   height: 300px;
@@ -181,11 +204,11 @@ nav .icons {
   object-fit: cover;
 }
 
- footer {
+footer {
   background-color: #000;
 }
 
- footer .footer-links a{
+footer .footer-links a {
   color: #fff;
   font-weight: bolder;
 }
@@ -199,12 +222,12 @@ footer .footer-links a:hover {
   color: #fff;
 }
 
- footer .contact button {
+footer .contact button {
   border: none;
-   padding: 7px 10px;
-   margin-left: -6px;
-   background-color: #343a40;
-   color: #fff;
+  padding: 7px 10px;
+  margin-left: -6px;
+  background-color: #343a40;
+  color: #fff;
 }
 
 footer .contact input {
@@ -216,8 +239,34 @@ footer .contact input {
   color: #fff;
 }
 
+@media screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .steps-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .find-school, .travel-school, .easy-school {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  footer .footer-links a{
-  margin: 20px;
+  footer .footer-links a {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav span {
+    display: none;
   }
 }
