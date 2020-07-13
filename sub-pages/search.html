@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,28 +12,72 @@
 </head>
 
 <body>
-    <header>
-        <nav class="col-12">
-            <a href="../index.html"><img src="../images/logo-white.png" alt="logo"></a>
-            <div class="icons">
-                <a href="#"><i class="fas fa-search"></i><span>SCHOOLS</span></a>
-                <a href="#"><i class="fas fa-user"></i><span>ABOUT</span></a>
-                <a href="#"><i class="fas fa-rss"></i><span>BLOGS</span></a>
-                <a href="#"><i class="fas fa-bars"></i><span>MORE. . .</span></a>
-            </div>
-        </nav>
-    </header>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    <div class="container-fluid">
+        <header>
+            <nav class="col-12">
+                <a href="../index.html"><img src="../images/logo-white.png" alt="logo"></a>
+                <div class="icons">
+                    <a href="#"><i class="fas fa-search"></i><span>SCHOOLS</span></a>
+                    <a href="#"><i class="fas fa-user"></i><span>ABOUT</span></a>
+                    <a href="#"><i class="fas fa-rss"></i><span>BLOGS</span></a>
+                    <a href="#"><i class="fas fa-bars"></i><span>MORE. . .</span></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="search-title">Filer By School Name, City, School Level Or Education System </div>
+                <div class="row">
+                    <form class="search-main mx-auto mt-5">
+                        <div class="d-flex">
+                            <div class="pr-2">
+                                <label for="school-name">SCHOOL NAME:</label><br>
+                                <input type="text" id="school-name" name="school-name">
+                            </div>
+                            <div class="pr-2">
+                                <label for="city">CITY:</label><br>
+                                <select id="city" name="city">
+                                    <option value="karachi">Karachi</option>
+                                    <option value="lahore">Lahore</option>
+                                    <option value="islamabad">Islamabad</option>
+                                    <option value="peshawer">Peshawer</option>
+                                    <option value="quetta">Quetta</option>
+                                </select>
+                            </div>
+                            <div class="pr-2">
+                                <label for="level">LEVEL</label><br>
+                                <select id="level" name="level">
+                                    <option value="primary">Primary</option>
+                                    <option value="secondary">Secondary</option>
+                                    <option value="higher-secondary">Higher Secondary</option>
+                                </select>
+                            </div>
+                            <div class="pr-2">
+                                <label for="system">Education System</label><br>
+                                <select id="system" name="system">
+                                    <option value="urdu">Urdu Medium</option>
+                                    <option value="english">English Medium</option>
+                                    <option value="oxford">Oxford System</option>
+                                </select>
+                            </div>
+                            <button type="button">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    </div>
 </body>
 
 </html>

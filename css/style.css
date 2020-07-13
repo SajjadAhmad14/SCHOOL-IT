@@ -77,6 +77,7 @@ nav span {
   padding: 8px;
   border-radius: 3px;
   font-size: 16px;
+  font-weight: bolder;
   outline: none;
 }
 
@@ -107,6 +108,12 @@ nav span {
   padding: 10px 0;
   border-radius: 2px;
   outline-color: inherit;
+}
+
+.form-container button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .steps-title {
@@ -204,6 +211,15 @@ nav span {
   object-fit: cover;
 }
 
+.search-title {
+  position: relative;
+  left: 240px;
+  top: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(128, 128, 128);
+}
+
 footer {
   background-color: #000;
 }
@@ -237,6 +253,40 @@ footer .contact input {
   background-color: #000;
   outline: none;
   color: #fff;
+}
+.search-main {
+  background-color: rgba(219, 219, 219, 0.5);
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  padding: 10px 30px;
+}
+
+.search-main input, option {
+  font-weight: bolder;
+}
+
+.search-main input, .search-main select{
+  height: 30px;
+  border: none;
+  outline-color: rgb(135, 206, 235);
+}
+
+.search-main label {
+  margin-bottom: 2px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.search-main button{
+  margin-top: 28px;
+  height: 30px;
+  border: none;
+  background-color: rgb(135, 206, 235);
+  color: #fff;
+  font-weight: bolder;
+  outline: none;
+  padding: 3px 5px;
 }
 
 @media screen and (min-width: 1024px) {
