@@ -17,7 +17,7 @@
             <nav class="col-12">
                 <a href="../index.html"><img src="../images/logo-white.png" alt="logo"></a>
                 <div class="icons">
-                    <a href="#"><i class="fas fa-search"></i><span>SCHOOLS</span></a>
+                    <a href="../sub-pages/search.html"> <i class="fas fa-search"></i><span>SCHOOLS</span></a>
                     <a href="#"><i class="fas fa-user"></i><span>ABOUT</span></a>
                     <a href="#"><i class="fas fa-rss"></i><span>BLOGS</span></a>
                     <a href="#"><i class="fas fa-bars"></i><span>MORE. . .</span></a>
@@ -26,10 +26,13 @@
         </header>
         <main>
             <section>
-                <div class="search-title">Filer By School Name, City, School Level Or Education System </div>
                 <div class="row">
-                    <form class="search-main mx-auto mt-5">
-                        <div class="d-flex">
+                    <div class="search-title mx-auto mt-5">Filer By School Name, City, School Level Or Education System
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="search-main mx-auto">
+                        <div class="d-lg-flex">
                             <div class="pr-2">
                                 <label for="school-name">SCHOOL NAME:</label><br>
                                 <input type="text" id="school-name" name="school-name">
@@ -61,8 +64,21 @@
                                 </select>
                             </div>
                             <button type="button">Search</button>
+                            <button type="button" class="ml-1 filter">clear filter</button>
                         </div>
                     </form>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="mx-auto found-title mt-5">Search Results Found 3 Schools</div>
+                </div>
+                <div class="row">
+                    <a href="#" class="school-box mx-auto">
+                        Name: Lahore Grammar School
+                    </a>
+                    <a href="#" class="school-box mx-auto">Name: Beacon House</a>
+                    <a href="#" class="school-box mx-auto">Name: City School</a>
                 </div>
             </section>
         </main>
