@@ -25,19 +25,19 @@
             </nav>
         </header>
         <main>
-            <section class="search-school">
+            <section>
                 <div class="row">
                     <div class="search-title mx-auto mt-5">Filer By School Name, City, School Level Or Education System
                     </div>
                 </div>
                 <div class="row">
-                    <form class="search-main mx-auto">
+                    <form class="search-main w-100">
                         <div class="d-lg-flex">
-                            <div class="pr-2">
+                            <div class="pr-lg-5">
                                 <label for="school-name">SCHOOL NAME:</label><br>
                                 <input type="text" id="school-name" name="school-name">
                             </div>
-                            <div class="pr-2">
+                            <div class="pr-5">
                                 <label for="city">CITY:</label><br>
                                 <select id="city" name="city">
                                     <option value="karachi">Karachi</option>
@@ -47,7 +47,7 @@
                                     <option value="quetta">Quetta</option>
                                 </select>
                             </div>
-                            <div class="pr-2">
+                            <div class="pr-5">
                                 <label for="level">LEVEL</label><br>
                                 <select id="level" name="level">
                                     <option value="primary">Primary</option>
@@ -55,7 +55,7 @@
                                     <option value="higher-secondary">Higher Secondary</option>
                                 </select>
                             </div>
-                            <div class="pr-2">
+                            <div class="pr-5">
                                 <label for="system">Education System</label><br>
                                 <select id="system" name="system">
                                     <option value="urdu">Urdu Medium</option>
@@ -64,25 +64,70 @@
                                 </select>
                             </div>
                             <button type="button">Search</button>
-                            <button type="button" class="ml-1 filter">clear filter</button>
+                            <button type="button" class="ml-2 filter">clear filter</button>
                         </div>
                     </form>
                 </div>
+                <!-- <form class="search-main-2 w-100">
+                    <div class="d-lg-flex">
+                        <div class="pr-lg-5">
+                            <label for="school-name">SCHOOL NAME:</label><br>
+                            <input type="text" id="school-name" name="school-name">
+                        </div>
+                        <div class="pr-5">
+                            <label for="city">CITY:</label><br>
+                            <select id="city" name="city">
+                                <option value="karachi">Karachi</option>
+                                <option value="lahore">Lahore</option>
+                                <option value="islamabad">Islamabad</option>
+                                <option value="peshawer">Peshawer</option>
+                                <option value="quetta">Quetta</option>
+                            </select>
+                        </div>
+                        <div class="pr-5">
+                            <label for="level">LEVEL</label><br>
+                            <select id="level" name="level">
+                                <option value="primary">Primary</option>
+                                <option value="secondary">Secondary</option>
+                                <option value="higher-secondary">Higher Secondary</option>
+                            </select>
+                        </div>
+                        <div class="pr-5">
+                            <label for="system">Education System</label><br>
+                            <select id="system" name="system">
+                                <option value="urdu">Urdu Medium</option>
+                                <option value="english">English Medium</option>
+                                <option value="oxford">Oxford System</option>
+                            </select>
+                        </div>
+                        <button type="button">Search</button>
+                        <button type="button" class="ml-2 filter">clear filter</button>
+                    </div>
+                </form> -->
             </section>
-            <section class="school-names">
-                <div class="row">
-                    <div class="mx-auto found-title mt-5">Search Results Found 3 Schools</div>
+            <section class="row row-cols-lg-3 mx-5 mt-3 school-names">
+                <div class="card">
+                    <a href="#"><img class="card-img" src="../images/school-1.jpg"></a>
                 </div>
-                <div class="row">
-                    <a href="#" class="school-box mx-auto">
-                        Name: Lahore Grammar School
-                    </a>
-                    <a href="#" class="school-box mx-auto">Name: Beacon House</a>
-                    <a href="#" class="school-box mx-auto">Name: City School</a>
+                <div class="card">
+                    <a href="#"><img class="card-img" src="../images/school-2.jpg"></a>
+                </div>
+                <div class="card">
+                    <a href="#"><img class="card-img" src="../images/school-3.jpg"></a>
                 </div>
             </section>
-            <section class="search-school-1 row row-cols-1 row-cols-sm-1">
-
+            <section class="row row-cols-1 school-names-2">
+                <div class = "col">
+                    <div class="card mb-2">
+                        <a href="#"><img class="card-img" src="../images/school-1.jpg"></a>
+                    </div>
+                    <div class="card mb-2">
+                        <a href="#"><img class="card-img" src="../images/school-2.jpg"></a>
+                    </div>
+                    <div class="card mb-2">
+                        <a href="#"><img class="card-img" src="../images/school-3.jpg"></a>
+                    </div>
+                </div>
             </section>
         </main>
         <!-- Optional JavaScript -->

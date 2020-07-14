@@ -256,7 +256,7 @@ footer .contact input {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: auto;
-  padding: 10px 30px;
+  padding: 40px 0 40px 60px;
 }
 
 .search-main input, option {
@@ -324,6 +324,7 @@ footer .contact input {
   
 }
 
+
 @media screen and (min-width: 1024px) {
   nav {
     display: flex;
@@ -347,13 +348,27 @@ footer .contact input {
     grid-template-columns: auto auto;
   }
 
+  .school-names-2 {
+    display: none;
+  }
+
+  .search-main-2 {
+    display: none;
+  }
+
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   nav span {
     display: none;
   }
-  .search-school, .school-names{
+
+  .school-names {
     display: none;
   }
+
+  .search-main {
+    display: none;
+  }
+
 }
