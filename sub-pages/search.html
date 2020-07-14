@@ -27,15 +27,13 @@
         <main>
             <section>
                 <div class="row">
-                    <div class="search-title mx-auto mt-5">Filer By School Name, City, School Level Or Education System
+                    <div class="search-title text-center mt-5 w-100 mb-3">Filter By School Name, City, School Level Or Education System
                     </div>
-                </div>
-                <div class="row">
-                    <form class="search-main w-100">
-                        <div class="d-lg-flex">
-                            <div class="pr-lg-5">
+                    <form class="search-main w-100 row-cols-sm-1 text-center">
+                        <div class = "search-child">
+                            <div class="pr-lg-5 text-center">
                                 <label for="school-name">SCHOOL NAME:</label><br>
-                                <input type="text" id="school-name" name="school-name">
+                                <input type="text" name="school-name">
                             </div>
                             <div class="pr-5">
                                 <label for="city">CITY:</label><br>
@@ -48,7 +46,7 @@
                                 </select>
                             </div>
                             <div class="pr-5">
-                                <label for="level">LEVEL</label><br>
+                                <label for="level">LEVEL:</label><br>
                                 <select id="level" name="level">
                                     <option value="primary">Primary</option>
                                     <option value="secondary">Secondary</option>
@@ -56,7 +54,7 @@
                                 </select>
                             </div>
                             <div class="pr-5">
-                                <label for="system">Education System</label><br>
+                                <label for="system">Education System:</label><br>
                                 <select id="system" name="system">
                                     <option value="urdu">Urdu Medium</option>
                                     <option value="english">English Medium</option>
@@ -68,42 +66,6 @@
                         </div>
                     </form>
                 </div>
-                <!-- <form class="search-main-2 w-100">
-                    <div class="d-lg-flex">
-                        <div class="pr-lg-5">
-                            <label for="school-name">SCHOOL NAME:</label><br>
-                            <input type="text" id="school-name" name="school-name">
-                        </div>
-                        <div class="pr-5">
-                            <label for="city">CITY:</label><br>
-                            <select id="city" name="city">
-                                <option value="karachi">Karachi</option>
-                                <option value="lahore">Lahore</option>
-                                <option value="islamabad">Islamabad</option>
-                                <option value="peshawer">Peshawer</option>
-                                <option value="quetta">Quetta</option>
-                            </select>
-                        </div>
-                        <div class="pr-5">
-                            <label for="level">LEVEL</label><br>
-                            <select id="level" name="level">
-                                <option value="primary">Primary</option>
-                                <option value="secondary">Secondary</option>
-                                <option value="higher-secondary">Higher Secondary</option>
-                            </select>
-                        </div>
-                        <div class="pr-5">
-                            <label for="system">Education System</label><br>
-                            <select id="system" name="system">
-                                <option value="urdu">Urdu Medium</option>
-                                <option value="english">English Medium</option>
-                                <option value="oxford">Oxford System</option>
-                            </select>
-                        </div>
-                        <button type="button">Search</button>
-                        <button type="button" class="ml-2 filter">clear filter</button>
-                    </div>
-                </form> -->
             </section>
             <section class="row row-cols-lg-3 mx-5 mt-3 school-names">
                 <div class="card">

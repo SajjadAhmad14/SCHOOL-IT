@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -251,6 +252,7 @@ footer .contact input {
   outline: none;
   color: #fff;
 }
+
 .search-main {
   background-color: rgba(219, 219, 219, 0.5);
   display: grid;
@@ -259,11 +261,13 @@ footer .contact input {
   padding: 40px 0 40px 60px;
 }
 
-.search-main input, option {
+.search-main input,
+option {
   font-weight: bolder;
 }
 
-.search-main input, .search-main select{
+.search-main input,
+.search-main select {
   height: 30px;
   border: none;
   outline-color: rgb(135, 206, 235);
@@ -275,7 +279,7 @@ footer .contact input {
   font-size: 18px;
 }
 
-.search-main button{
+.search-main button {
   margin-top: 28px;
   height: 30px;
   border: none;
@@ -287,7 +291,7 @@ footer .contact input {
 }
 
 .search-main button:hover {
-    background-color: rgb(128, 181, 202);
+  background-color: rgb(128, 181, 202);
 
 }
 
@@ -295,7 +299,7 @@ footer .contact input {
   background-color: orange;
 }
 
-.search-main button.filter:hover{
+.search-main button.filter:hover {
   background-color: rgb(250, 180, 50);
 }
 
@@ -318,12 +322,11 @@ footer .contact input {
   font-weight: bolder;
 }
 
-.school-box:hover{
+.school-box:hover {
   text-decoration: none;
   color: #fff;
-  
-}
 
+}
 
 @media screen and (min-width: 1024px) {
   nav {
@@ -341,18 +344,21 @@ footer .contact input {
 
   .search-container .work {
     margin: 0 auto;
-  } 
+  }
 
-  .find-school, .travel-school, .easy-school {
+  .find-school,
+  .travel-school,
+  .easy-school {
     display: grid;
     grid-template-columns: auto auto;
   }
 
-  .school-names-2 {
-    display: none;
+  .search-main .search-child {
+    display: flex;
+    flex-direction: row;
   }
 
-  .search-main-2 {
+  .school-names-2 {
     display: none;
   }
 
@@ -368,7 +374,16 @@ footer .contact input {
   }
 
   .search-main {
-    display: none;
+    padding: 20px 0;
+  }
+
+  .search-main #school-name {
+    width: 400px;
+    margin-left: -50px;
+  }
+
+  .search-main select {
+    width: 400px;
   }
 
 }
