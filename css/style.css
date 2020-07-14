@@ -62,10 +62,10 @@ nav span {
   background-position: center center;
 }
 
-.title {
+.search-container .title {
   position: relative;
   font-weight: bolder;
-  top: 50px;
+  top: 100px;
   left: 20px;
 }
 
@@ -84,7 +84,7 @@ nav span {
 .form-container {
   display: relative;
   background-color: rgba(219, 219, 219, 0.5);
-  margin: 50px 20px 20px 20px;
+  margin: 100px 20px 20px 20px;
   padding: 10px 20px 30px 20px;
   border-radius: 10px;
   font-size: 20px;
