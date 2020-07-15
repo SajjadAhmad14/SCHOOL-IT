@@ -374,6 +374,12 @@ iframe {
   text-decoration: none;
 }
 
+.map-head {
+  color: #d35649;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
 @media screen and (min-width: 1200px) {
   table #head td {
     padding-left: 100px;
