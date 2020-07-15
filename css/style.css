@@ -355,11 +355,33 @@ table tr td {
   font-weight: bolder;
 }
 
+table tr td span {
+  color: rgb(82, 171, 206);
+}
+
 iframe {
   width: 88%;
 }
 
-@media screen and (min-width: 1024px) {
+.click a {
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: grey;
+}
+
+.click a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+  table #head td {
+    padding-left: 100px;
+  }
+
+}
+
+) @media screen and (min-width: 1024px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -392,7 +414,6 @@ iframe {
   .school-names-2 {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 1023px) {
@@ -417,4 +438,23 @@ iframe {
     width: 400px;
   }
 
+}
+
+@media screen and (max-width: 992px) {
+  table tr td {
+    padding: 5px;
+    width: 200px;
+  }
+
+  table #head td {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  table tr td {
+    padding: 5px;
+    width: 180px;
+    white-space: nowrap;
+  }
 }
