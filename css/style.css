@@ -141,9 +141,10 @@ nav span {
 .find-school {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #d35649;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 .find-school button {
@@ -169,10 +170,11 @@ nav span {
 
 .travel-school {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #99A4A5;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 .travel-school button {
@@ -198,10 +200,11 @@ nav span {
 
 .easy-school {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #509BD7;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 .easy-school img {
