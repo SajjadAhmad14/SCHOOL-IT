@@ -381,7 +381,8 @@ iframe {
 
 }
 
-) @media screen and (min-width: 1024px) {
+ @media screen and (min-width: 1024px) {
+   
   nav {
     display: flex;
     flex-direction: row;
