@@ -331,6 +331,17 @@ option {
 
 }
 
+table {
+  width: 95%;
+  border: 2px solid red;
+  margin-top: 100px;
+}
+
+table tr td {
+  padding: 5px;
+  border: 1px solid black
+}
+
 @media screen and (min-width: 1024px) {
   nav {
     display: flex;
