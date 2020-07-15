@@ -381,8 +381,8 @@ iframe {
 
 }
 
- @media screen and (min-width: 1024px) {
-   
+@media screen and (min-width: 1024px) {
+
   nav {
     display: flex;
     flex-direction: row;
@@ -405,6 +405,10 @@ iframe {
   .easy-school {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .travel-school button {
+    margin-left: -200px;
   }
 
   .search-main .search-child {
