@@ -408,6 +408,7 @@ table .apply button:hover {
 
 iframe {
   width: 88%;
+  border: 0;
 }
 
 .click a {
