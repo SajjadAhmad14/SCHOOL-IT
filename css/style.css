@@ -84,7 +84,7 @@ nav span {
 }
 
 .form-container {
-  display: relative;
+  position: relative;
   background-color: rgba(219, 219, 219, 0.5);
   margin: 100px 20px 20px 20px;
   padding: 10px 20px 30px 20px;
@@ -160,6 +160,24 @@ nav span {
   border-radius: 3px;
 }
 
+.travel-school button {
+  outline: none;
+  border: none;
+  color: #99a4a5;
+  background-color: #fff;
+  padding: 5px;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+footer .contact button {
+  border: none;
+  padding: 7px 10px;
+  margin-left: -6px;
+  background-color: #343a40;
+  color: #fff;
+}
+
 .find-school button:hover {
   background-color: #801f14;
 }
@@ -180,14 +198,15 @@ nav span {
   padding: 10px 5px;
 }
 
-.travel-school button {
-  outline: none;
+.search-main button {
+  margin-top: 28px;
+  height: 30px;
   border: none;
-  color: #99a4a5;
-  background-color: #fff;
-  padding: 5px;
+  background-color: rgb(135, 206, 235);
+  color: #fff;
   font-weight: bolder;
-  border-radius: 3px;
+  outline: none;
+  padding: 3px 5px;
 }
 
 .travel-school button:hover {
@@ -241,21 +260,18 @@ footer .contact {
   color: #d35649;
 }
 
-.contact .visit-us a:hover {
-  text-decoration: none;
-}
-
 footer .footer-links a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-footer .contact button {
-  border: none;
-  padding: 7px 10px;
-  margin-left: -6px;
-  background-color: #343a40;
-  color: #fff;
+.contact .visit-us a:hover {
+  text-decoration: none;
+}
+
+.search-main input,
+option {
+  font-weight: bolder;
 }
 
 footer .contact input {
@@ -295,11 +311,6 @@ footer .bottom-bar {
 }
 
 .search-main input,
-option {
-  font-weight: bolder;
-}
-
-.search-main input,
 .search-main select {
   height: 30px;
   border: none;
@@ -310,17 +321,6 @@ option {
   margin-bottom: 2px;
   font-weight: bolder;
   font-size: 18px;
-}
-
-.search-main button {
-  margin-top: 28px;
-  height: 30px;
-  border: none;
-  background-color: rgb(135, 206, 235);
-  color: #fff;
-  font-weight: bolder;
-  outline: none;
-  padding: 3px 5px;
 }
 
 .search-main button:hover {
