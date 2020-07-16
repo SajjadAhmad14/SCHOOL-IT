@@ -510,11 +510,3 @@ iframe {
     padding-left: 100px;
   }
 }
-
-@media screen and (max-width: 450px) {
-  table tr td {
-    padding: 5px;
-    width: 180px;
-    white-space: nowrap;
-  }
-}
