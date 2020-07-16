@@ -208,9 +208,9 @@ nav span {
 }
 
 .easy-school img {
-  width: 290px;
+  width: 260px;
   height: 300px;
-  border-radius: 50%;
+  border-radius: 10px;
   object-fit: cover;
 }
 
