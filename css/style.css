@@ -60,13 +60,15 @@ nav span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  font-weight: bolder;
 }
 
 .search-container .title {
   position: relative;
   font-weight: bolder;
   top: 100px;
-  left: 20px;
+  left: 30px;
+  font-size: 20px;
 }
 
 .search-container .work {
@@ -91,7 +93,7 @@ nav span {
 }
 
 .search-container .title,
-.form-container button {
+.form-container input {
   color: #fff;
   font-size: 18px;
 }
@@ -102,17 +104,18 @@ nav span {
   border-radius: 2px;
 }
 
-.form-container button {
+.form-container .text {
+  color: #000;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.form-container .button {
   background-color: #d35649;
   border: none;
   padding: 10px 0;
   border-radius: 2px;
   outline-color: inherit;
-}
-
-.form-container button a {
-  color: #fff;
-  text-decoration: none;
   font-weight: bolder;
 }
 
@@ -172,7 +175,7 @@ nav span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #99A4A5;
+  background-color: #99a4a5;
   color: #fff;
   padding: 10px 5px;
 }
@@ -180,7 +183,7 @@ nav span {
 .travel-school button {
   outline: none;
   border: none;
-  color: #99A4A5;
+  color: #99a4a5;
   background-color: #fff;
   padding: 5px;
   font-weight: bolder;
@@ -188,7 +191,7 @@ nav span {
 }
 
 .travel-school button:hover {
-  background-color: #5d6262
+  background-color: #5d6262;
 }
 
 .travel-school img {
@@ -202,7 +205,7 @@ nav span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #509BD7;
+  background-color: #509bd7;
   color: #fff;
   padding: 10px 5px;
 }
@@ -257,7 +260,7 @@ footer .contact button {
 
 footer .contact input {
   border-color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 5px 10px;
   background-color: #000;
   outline: none;
@@ -322,7 +325,6 @@ option {
 
 .search-main button:hover {
   background-color: rgb(128, 181, 202);
-
 }
 
 .search-main button.filter {
@@ -355,7 +357,6 @@ option {
 .school-box:hover {
   text-decoration: none;
   color: #fff;
-
 }
 
 table {
@@ -434,11 +435,9 @@ iframe {
   .contacts {
     margin-left: -120px;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
-
   nav {
     display: flex;
     flex-direction: row;
@@ -498,7 +497,6 @@ iframe {
   .search-main select {
     width: 400px;
   }
-
 }
 
 @media screen and (max-width: 992px) {
