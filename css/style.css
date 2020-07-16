@@ -269,7 +269,7 @@ footer .bottom-bar {
 }
 
 .bottom-bar .fab,
-.fas {
+.bottom-bar .fas {
   color: rgb(255, 255, 255);
   font-size: 20px;
 }
@@ -384,6 +384,25 @@ table tr td {
 
 table tr td span {
   color: rgb(82, 171, 206);
+  font-size: 1em;
+}
+
+table .apply td {
+  border: none;
+  text-align: end;
+}
+
+table .apply button {
+  border: none;
+  background-color: rgb(50, 186, 240);
+  color: #fff;
+  font-weight: bolder;
+  outline: rgb(50, 186, 240);
+  padding: 5px;
+}
+
+table .apply button:hover {
+  background-color: rgb(36, 105, 133);
 }
 
 iframe {
