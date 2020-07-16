@@ -227,11 +227,19 @@ footer {
 footer .footer-links a {
   color: #fff;
   font-weight: bolder;
-  margin: 0 5px;
+  margin: 10px 20px 0 20px;
 }
 
 footer .contact {
   color: #fff;
+}
+
+.contact .visit-us a {
+  color: #d35649;
+}
+
+.contact .visit-us a:hover {
+  text-decoration: none;
 }
 
 footer .footer-links a:hover {
@@ -254,6 +262,25 @@ footer .contact input {
   background-color: #000;
   outline: none;
   color: #fff;
+}
+
+footer .bottom-bar {
+  background-color: #1f1f1f;
+}
+
+.bottom-bar .fab,
+.fas {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.bottom-bar .far {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.bottom-bar .rights-statement {
+  color: rgb(255, 255, 255);
 }
 
 .search-main {
@@ -383,6 +410,10 @@ iframe {
 @media screen and (min-width: 1200px) {
   table #head td {
     padding-left: 100px;
+  }
+
+  .contacts {
+    margin-left: -120px;
   }
 
 }
