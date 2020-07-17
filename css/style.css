@@ -520,6 +520,10 @@ iframe {
   .search-container .title {
     left: 50px;
   }
+
+  footer h4 {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
