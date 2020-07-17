@@ -8,13 +8,13 @@
 html,
 body {
   overflow-x: hidden;
-}
+} 
 
 .container-fluid {
   font-family:
     'Nanum Gothic',
     sans-serif;
-  padding: 0;
+    padding: 0;
 }
 
 nav {
@@ -62,7 +62,7 @@ nav span {
 }
 
 .search-container {
-  height: 100vh;
+  height: 70vh;
   background-image: url("../images/school.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,7 +74,8 @@ nav span {
   position: relative;
   font-weight: bolder;
   top: 100px;
-  left: 30px;
+  left: 120px;
+  right: 120px;
   font-size: 20px;
 }
 
@@ -93,7 +94,7 @@ nav span {
 .form-container {
   position: relative;
   background-color: rgba(219, 219, 219, 0.5);
-  margin: 100px 20px 20px 20px;
+  margin: 100px 100px 20px 100px;
   padding: 10px 20px 30px 20px;
   border-radius: 10px;
   font-size: 20px;
@@ -498,6 +499,10 @@ iframe {
   .search-main select {
     width: 400px;
   }
+
+  .search-container .work {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -508,5 +513,16 @@ iframe {
 
   table #head td {
     padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-container .title {
+    left: 50px;
+  }
+
+@media screen and (max-width: 576px) {
+  .search-container .title {
+    left: 0;
   }
 }
