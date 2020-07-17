@@ -8,13 +8,11 @@
 html,
 body {
   overflow-x: hidden;
-} 
+}
 
 .container-fluid {
-  font-family:
-    'Nanum Gothic',
-    sans-serif;
-    padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0;
 }
 
 nav {
