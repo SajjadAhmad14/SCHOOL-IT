@@ -7,7 +7,7 @@
 
 html,
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .container-fluid {
@@ -66,15 +66,13 @@ nav span {
   background-size: cover;
   background-position: center center;
   font-weight: bolder;
+  padding-top: 50px;
 }
 
 .search-container .title {
-  position: relative;
   font-weight: bolder;
-  top: 100px;
-  left: 120px;
-  right: 120px;
   font-size: 20px;
+  margin-bottom: -100px;
 }
 
 .search-container .work {
@@ -449,17 +447,12 @@ iframe {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
   }
 
   .search-container .work {
-    margin: 0 auto;
-  }
-
-  .find-school,
-  .travel-school,
-  .easy-school {
-    display: grid;
-    grid-template-columns: auto auto;
+    text-align: center;
   }
 
   .travel-school button {
@@ -469,6 +462,13 @@ iframe {
   .search-main .search-child {
     display: flex;
     flex-direction: row;
+  }
+
+  .school-names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
   }
 
   .school-names-2 {
@@ -500,6 +500,15 @@ iframe {
 
   .search-container .work {
     margin: 0 auto;
+  }
+
+  .find-school,
+  .travel-school,
+  .easy-school {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
   }
 }
 

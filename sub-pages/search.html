@@ -26,49 +26,52 @@
         </header>
         <main>
             <section>
-                <div class="row">
-                    <div class="search-title text-center mt-5 w-100 mb-3">Filter By School Name, City, School Level Or
-                        Education System
-                    </div>
-                    <form class="search-main w-100 row-cols-sm-1 text-center">
-                        <div class="search-child">
-                            <div class="pr-lg-5 text-center">
-                                <label>SCHOOL NAME:</label><br>
-                                <input type="text" name="school-name">
-                            </div>
-                            <div class="pr-5">
-                                <label for="city">CITY:</label><br>
-                                <select id="city" name="city">
-                                    <option value="karachi">Karachi</option>
-                                    <option value="lahore">Lahore</option>
-                                    <option value="islamabad">Islamabad</option>
-                                    <option value="peshawer">Peshawer</option>
-                                    <option value="quetta">Quetta</option>
-                                </select>
-                            </div>
-                            <div class="pr-5">
-                                <label for="level">LEVEL:</label><br>
-                                <select id="level" name="level">
-                                    <option value="primary">Primary</option>
-                                    <option value="secondary">Secondary</option>
-                                    <option value="higher-secondary">Higher Secondary</option>
-                                </select>
-                            </div>
-                            <div class="pr-5">
-                                <label for="system">Education System:</label><br>
-                                <select id="system" name="system">
-                                    <option value="urdu">Urdu Medium</option>
-                                    <option value="english">English Medium</option>
-                                    <option value="oxford">Oxford System</option>
-                                </select>
-                            </div>
-                            <button type="button">Search</button>
-                            <button type="button" class="ml-2 filter">clear filter</button>
-                        </div>
-                    </form>
+                <!-- <div class="row"> -->
+                <div class="search-title text-center mt-5 mb-3">Filter By School Name, City, School Level Or
+                    Education System
+                    <!-- text-center  w-100  -->
                 </div>
+                <form class="search-main w-100 text-center">
+                    <!-- row-cols-sm-1 -->
+                    <div class="search-child">
+                        <div class="pr-lg-5 text-center">
+                            <label>SCHOOL NAME:</label><br>
+                            <input type="text" name="school-name">
+                        </div>
+                        <div class="pr-5">
+                            <label for="city">CITY:</label><br>
+                            <select id="city" name="city">
+                                <option value="karachi">Karachi</option>
+                                <option value="lahore">Lahore</option>
+                                <option value="islamabad">Islamabad</option>
+                                <option value="peshawer">Peshawer</option>
+                                <option value="quetta">Quetta</option>
+                            </select>
+                        </div>
+                        <div class="pr-5">
+                            <label for="level">LEVEL:</label><br>
+                            <select id="level" name="level">
+                                <option value="primary">Primary</option>
+                                <option value="secondary">Secondary</option>
+                                <option value="higher-secondary">Higher Secondary</option>
+                            </select>
+                        </div>
+                        <div class="pr-5">
+                            <label for="system">Education System:</label><br>
+                            <select id="system" name="system">
+                                <option value="urdu">Urdu Medium</option>
+                                <option value="english">English Medium</option>
+                                <option value="oxford">Oxford System</option>
+                            </select>
+                        </div>
+                        <button type="button">Search</button>
+                        <button type="button" class="ml-2 filter">clear filter</button>
+                    </div>
+                </form>
+                <!-- </div> -->
             </section>
-            <section class="row row-cols-lg-3 mx-5 mt-3 mb-3 school-names">
+            <section class="mx-5 mt-3 mb-3 school-names">
+                <!-- row row-cols-lg-3 -->
                 <div class="card">
                     <a href="./details.html"><img class="card-img" src="../images/school-1.jpg" alt="school-1"></a>
                 </div>
@@ -105,7 +108,8 @@
                 <a href="#">BLOG</a>
                 <a href="#">GOOGLE+</a>
             </div>
-            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 contact contacts mt-5">
+            <div class="contact contacts mt-5">
+                <!-- row row-cols-1 row-cols-md-4 row-cols-lg-4 -->
                 <div class="col col-md-4 col-lg-4">
                     <h4 class="text-center">
                         SUBSCRIBE
