@@ -483,7 +483,6 @@ iframe {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-
   }
 
   .school-names-2 {
@@ -493,7 +492,6 @@ iframe {
   .footer-links a {
     margin: 10px 20px 0 20px;
   }
-
 }
 
 @media screen and (max-width: 1023px) {
