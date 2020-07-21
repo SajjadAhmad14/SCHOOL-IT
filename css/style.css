@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0;
+}
+
+nav {
+  background-color: #d35649;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav img {
+  width: 200px;
+  height: 50px;
+}
+
+nav .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+}
+
+.click a {
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: grey;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav span {
+  margin-left: -15px;
+}
+
+.fas {
+  margin: 20px;
+}
+
+.search-container {
+  height: 70vh;
+  background-image: url("../images/school.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.search-container .title {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: -100px;
+}
+
+.search-container .work {
+  color: #212529;
+  background-color: #f8f9fa;
+  margin: 40px 60px 0 60px;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bolder;
+  outline: none;
+}
+
+.form-container {
+  position: relative;
+  background-color: rgba(219, 219, 219, 0.5);
+  margin: 100px 100px 20px 100px;
+  padding: 10px 20px 30px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.search-container .title,
+.form-container input {
+  color: #fff;
+  font-size: 18px;
+}
+
+.form-container input {
+  border: none;
+  padding: 10px 0;
+  border-radius: 2px;
+}
+
+.form-container .text {
+  color: #000;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.form-container .button {
+  background-color: #d35649;
+  border: none;
+  padding: 10px 0;
+  border-radius: 2px;
+  outline-color: inherit;
+  font-weight: bolder;
+}
+
+.steps-title {
+  color: #d35649;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.steps-container .steps-icons {
+  font-size: 35px;
+}
+
+.steps-container .steps-head {
+  font-size: 20px;
+}
+
+.find-school {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d35649;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.find-school button {
+  outline: none;
+  border: none;
+  color: #d35649;
+  background-color: #fff;
+  padding: 5px;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+.travel-school button {
+  outline: none;
+  border: none;
+  color: #99a4a5;
+  background-color: #fff;
+  padding: 5px;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+.search-main button {
+  margin-top: 28px;
+  height: 30px;
+  border: none;
+  background-color: rgb(135, 206, 235);
+  color: #fff;
+  font-weight: bolder;
+  outline: none;
+  padding: 3px 5px;
+}
+
+footer .contact button {
+  border: none;
+  padding: 7px 10px;
+  margin-left: -6px;
+  background-color: #343a40;
+  color: #fff;
+}
+
+table .apply button {
+  border: none;
+  background-color: rgb(50, 186, 240);
+  color: #fff;
+  font-weight: bolder;
+  outline: rgb(50, 186, 240);
+  padding: 5px;
+}
+
+.find-school button:hover {
+  background-color: #801f14;
+}
+
+.find-school img {
+  width: 290px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.travel-school {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #99a4a5;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.travel-school button:hover {
+  background-color: #5d6262;
+}
+
+.travel-school img {
+  width: 290px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.easy-school {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #509bd7;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.easy-school img {
+  width: 290px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.search-title {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(128, 128, 128);
+}
+
+footer {
+  background-color: #000;
+}
+
+.footer-links {
+  padding: 20px 0;
+}
+
+.footer-links .footer-border {
+  border-top: 1px solid rgb(233, 227, 227);
+  border-bottom: 1px solid rgb(231, 227, 227);
+  padding: 10px 0;
+}
+
+footer .footer-links a {
+  color: #fff;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+footer .footer-links a img {
+  width: 100px;
+  height: 30px;
+}
+
+footer .contact {
+  color: #fff;
+}
+
+.contact .visit-us a {
+  color: #d35649;
+}
+
+.click a:hover {
+  text-decoration: none;
+}
+
+footer .footer-links a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(34, 33, 33);
+}
+
+.contact .visit-us a:hover {
+  text-decoration: none;
+}
+
+.search-main input,
+option {
+  font-weight: bolder;
+}
+
+.search-main input,
+.search-main select {
+  height: 30px;
+  border: none;
+  outline-color: rgb(135, 206, 235);
+}
+
+footer .contact input {
+  border-color: #fff;
+  border-radius: 0;
+  padding: 5px 10px;
+  background-color: #000;
+  outline: none;
+  color: #fff;
+}
+
+footer .bottom-bar {
+  background-color: #1f1f1f;
+}
+
+.bottom-bar .fab,
+.bottom-bar .fas {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.bottom-bar .far {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.bottom-bar .rights-statement {
+  color: rgb(255, 255, 255);
+}
+
+.search-main {
+  background-color: rgba(219, 219, 219, 0.5);
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  padding: 40px 0 40px 60px;
+}
+
+.search-main label {
+  margin-bottom: 2px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.search-main button:hover {
+  background-color: rgb(128, 181, 202);
+}
+
+.search-main button.filter {
+  background-color: orange;
+}
+
+.search-main button.filter:hover {
+  background-color: rgb(250, 180, 50);
+}
+
+.steps-text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.found-title {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(128, 128, 128);
+}
+
+.school-box {
+  background-color: #d35649;
+  height: 200px;
+  width: 200px;
+  margin: 10px 5px 5px 5px;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.school-box:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+table {
+  width: 90%;
+  box-shadow: 0 5px 5px 10px rgb(197, 196, 196);
+  margin-top: 50px;
+  padding-top: 100px;
+}
+
+table tr td {
+  padding: 5px;
+  border: 2px solid rgb(128, 128, 128);
+  width: 400px;
+  margin: 20px auto;
+  height: 40px;
+  font-weight: bolder;
+}
+
+table .apply td {
+  border: none;
+  text-align: end;
+}
+
+table #head td {
+  border: none;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #d35649;
+  font-weight: bolder;
+}
+
+table tr td span {
+  color: rgb(82, 171, 206);
+  font-size: 1em;
+}
+
+table .apply button:hover {
+  background-color: rgb(36, 105, 133);
+}
+
+iframe {
+  width: 88%;
+  border: 0;
+}
+
+.map-head {
+  color: #d35649;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 1200px) {
+  table #head td {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .steps-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-container .work {
+    text-align: center;
+  }
+
+  .travel-school button {
+    margin-left: -200px;
+  }
+
+  .search-main .search-child {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .school-names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .school-names-2 {
+    display: none;
+  }
+
+  .footer-links a {
+    margin: 10px 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  nav span {
+    display: none;
+  }
+
+  .school-names {
+    display: none;
+  }
+
+  .search-main {
+    padding: 20px 0;
+  }
+
+  .search-main #school-name {
+    width: 400px;
+    margin-left: -50px;
+  }
+
+  .search-main select {
+    width: 100%;
+  }
+
+  .search-main input {
+    width: 80%;
+    margin-left: -50px;
+  }
+
+  .search-container .work {
+    margin: 0 auto;
+  }
+
+  .find-school,
+  .travel-school,
+  .easy-school {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  table tr td {
+    padding: 5px;
+    width: 100%;
+  }
+
+  table #head td {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-container .title {
+    left: 50px;
+  }
+
+  table tr td {
+    height: 70px;
+  }
+
+  footer h4 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .search-container .title {
+    left: 0;
+  }
+
+  .bottom-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
