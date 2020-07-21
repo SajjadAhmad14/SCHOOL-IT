@@ -278,9 +278,6 @@ footer .footer-links a img {
 
 footer .contact {
   color: #fff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0 10px;
 }
 
 .contact .visit-us a {
@@ -367,6 +364,11 @@ footer .bottom-bar {
   background-color: rgb(250, 180, 50);
 }
 
+.steps-text {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .found-title {
   font-size: 20px;
   font-weight: bolder;
@@ -443,10 +445,6 @@ iframe {
 @media screen and (min-width: 1200px) {
   table #head td {
     padding-left: 100px;
-  }
-
-  .contact {
-    margin-left: -120px;
   }
 }
 
@@ -533,14 +531,6 @@ iframe {
     justify-content: center;
     align-items: center;
   }
-
-  footer .contact {
-    display: none;
-  }
-
-  .bottom-bar {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -566,16 +556,16 @@ iframe {
   footer h4 {
     margin-top: 20px;
   }
-
-  .bottom-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 @media screen and (max-width: 576px) {
   .search-container .title {
     left: 0;
+  }
+
+  .bottom-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
