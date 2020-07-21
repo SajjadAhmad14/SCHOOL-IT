@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Project Live Link](https://rawcdn.githack.com/SajjadAhmad14/SCHOOL-IT/2f0322c591b7c3cb72066f5569e5a18b7f9d1008/index.html)
+[Project Live Link](https://rawcdn.githack.com/SajjadAhmad14/SCHOOL-IT/d3ad52857134021ea32f2fc2193b771e0993680e/index.html)
 
 
 ## Presentation Video
