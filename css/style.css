@@ -496,7 +496,12 @@ iframe {
   }
 
   .search-main select {
-    width: 400px;
+    width: 100%;
+  }
+
+  .search-main input {
+    width: 80%;
+    margin-left: -50px;
   }
 
   .search-container .work {
@@ -516,7 +521,7 @@ iframe {
 @media screen and (max-width: 992px) {
   table tr td {
     padding: 5px;
-    width: 200px;
+    width: 100%;
   }
 
   table #head td {
@@ -527,6 +532,10 @@ iframe {
 @media screen and (max-width: 768px) {
   .search-container .title {
     left: 50px;
+  }
+
+  table tr td {
+    height: 70px;
   }
 
   footer h4 {
