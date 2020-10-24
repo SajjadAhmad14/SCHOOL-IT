@@ -41,7 +41,7 @@
 
 - Github: [@githubhandle](https://github.com/SajjadAhmad14)
 - Twitter: [@twitterhandle](https://twitter.com/Sajjad_Ahmad14)
-- Linkedin: [linkedin](https://www.linkedin.com/in/sajjad-ahmad-86102117a/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sajjadahmad14)
 
 
 ## 🤝 Contributing
