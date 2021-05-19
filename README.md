@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Project Live Link](https://rawcdn.githack.com/SajjadAhmad14/SCHOOL-IT/525761f06d859878842819ed006718f6c541eb4f/index.html)
+[Project Live Link](https://schoolit.netlify.app/)
 
 
 ## Presentation Video
